@@ -4,9 +4,9 @@ export default function Custom500() {
     return (
     <div id="404">
         <Head>
-            <title>500 - Sidan laddades inte rätt</title>
+            <title>500 - The site did not load right</title>
         </Head>
-        <h1>500 - Sidan kunde inte laddas rätt</h1>
+        <h1>500 - The site did not load right</h1>
     </div>
     )
   }
