@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
-import Navbar from '../components/Navbar'
+import Navbar from '../components/Navbar.jsx'
 import Footer from '../components/Footer'
 import { UserProvider } from '@auth0/nextjs-auth0'
 

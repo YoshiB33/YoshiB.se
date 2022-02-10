@@ -12,6 +12,9 @@ export default function Profile() {
   return (
     <div>
       <h1>Profile</h1>
+      <Head>
+        <title>Profile | YoshiB.se</title>
+      </Head>
 
       {/* show the user information */}
       {user && (
@@ -29,5 +32,3 @@ export default function Profile() {
     </div>
   );
 }
-
-export const getServerSideProps = withPageAuthRequired();
