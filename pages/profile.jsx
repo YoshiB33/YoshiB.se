@@ -1,4 +1,5 @@
 import { useUser, withPageAuthRequired } from '@auth0/nextjs-auth0';
+import Head from 'next/head';
 
 export default function Profile() {
   const { user, error, isLoading } = useUser();
