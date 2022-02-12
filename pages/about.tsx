@@ -7,6 +7,7 @@ return (
         <Head>
             <title>About | YoshiB.se</title>
         </Head>
+        <p>More info soon.</p>
     </div>
 )
 }

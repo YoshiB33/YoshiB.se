@@ -8,7 +8,7 @@ export default function Home() {
         <title>Home | YoshiB.se</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>Välkommen till YoshiB.se!</h1>
+      <h1>Welcomme to YoshiB.se!</h1>
     </div>
   )
 }
