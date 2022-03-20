@@ -1,0 +1,14 @@
+{
+  "/401": "pages/401.html",
+  "/404": "pages/404.html",
+  "/500": "pages/500.html",
+  "/_app": "pages/_app.js",
+  "/about": "pages/about.html",
+  "/api/auth/[...auth0]": "pages/api/auth/[...auth0].js",
+  "/api/hello": "pages/api/hello.js",
+  "/api/protected-route": "pages/api/protected-route.js",
+  "/api/shows": "pages/api/shows.js",
+  "/": "pages/index.html",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js"
+}
