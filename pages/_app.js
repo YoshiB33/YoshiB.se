@@ -110,11 +110,11 @@ function Layout({ children  }) {
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx(navbar, {}),
             /*#__PURE__*/ jsx_runtime_.jsx("main", {
-                className: "flex-1",
+                className: "flex-1 px-16 bg-slate-800",
                 children: children
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: "h-screen bg-slate-800 ",
+                className: "h-screen bg-slate-800",
                 children: /*#__PURE__*/ jsx_runtime_.jsx("link", {
                     href: "/favicon.ico"
                 })
@@ -129,9 +129,11 @@ function Layout({ children  }) {
 
 
 function MyApp({ Component , pageProps  }) {
-    return(/*#__PURE__*/ jsx_runtime_.jsx(Layout, {
-        children: /*#__PURE__*/ jsx_runtime_.jsx(Component, {
-            ...pageProps
+    return(/*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
+        children: /*#__PURE__*/ jsx_runtime_.jsx(Layout, {
+            children: /*#__PURE__*/ jsx_runtime_.jsx(Component, {
+                ...pageProps
+            })
         })
     }));
 }
