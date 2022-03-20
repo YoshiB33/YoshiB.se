@@ -1,17 +1,13 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
-import Navbar from '../components/Navbar.jsx'
-import Footer from '../components/Footer'
-import { UserProvider } from '@auth0/nextjs-auth0'
+import Layout from '../components/layout'
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return<> 
-  <UserProvider>
-  <Navbar/>
+  return (
+  <Layout>
   <Component {...pageProps} />
-  <Footer/>
-  </UserProvider>
-  </>
+  </Layout>
+  )
 }
 
 export default MyApp

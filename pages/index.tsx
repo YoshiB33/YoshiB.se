@@ -6,9 +6,8 @@ export default function Home() {
     <div>
       <Head>
         <title>Home | YoshiB.se</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>Welcome to YoshiB.se!</h1>
+      <h1 className='text-white text-3xl text-center pt-7 bg-slate-800'>Welcome to YoshiB.se!</h1>
     </div>
   )
 }
